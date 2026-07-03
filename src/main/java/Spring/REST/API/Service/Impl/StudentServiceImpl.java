@@ -60,6 +60,7 @@ public class StudentServiceImpl implements StudentService {
         if (patchStudentRequestDTO.getName() != null) {
             student.setName(patchStudentRequestDTO.getName());
         }
+
         if (patchStudentRequestDTO.getEmail() != null) {
             student.setEmail(patchStudentRequestDTO.getEmail());
         }
